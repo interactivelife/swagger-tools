@@ -76,6 +76,7 @@ window.onload = function() {
       url: url,
       dom_id: '#swagger-ui',
       deepLinking: true,
+      oauth2RedirectUrl: `${window.location.href}/oauth2-redirect.html`,
       presets: [
         SwaggerUIBundle.presets.apis,
         SwaggerUIStandalonePreset
